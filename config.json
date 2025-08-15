@@ -1,0 +1,29 @@
+{
+"inbounds": [
+{
+"port": 8080,
+"protocol": "vless",
+"settings": {
+"clients": [
+{
+"id": "d2cb9981-233c-4c18-8702-8a1b04cb0044",
+"level": 0
+}
+],
+"decryption": "none"
+},
+"streamSettings": {
+"network": "ws",
+"wsSettings": {
+"path": "/Fiacre"
+}
+}
+}
+],
+"outbounds": [
+{
+"protocol": "freedom",
+"settings": {}
+}
+]
+}
